@@ -12,12 +12,7 @@ pipeline {
             agent {
                 docker { image 'node:8.11.2-alpine' }
             }
-            stages{
-                stage ('npm install'){
-                    steps {
-                        sh "npm install"
-                    }
-                }
+           
                 stage('NPM build'){
                     steps {
                         sh 'npm run-script build --prod'
