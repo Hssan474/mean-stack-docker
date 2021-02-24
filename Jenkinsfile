@@ -10,7 +10,7 @@ pipeline {
         }
         stage ('Execute CI pipeline') {
             agent {
-                docker { image 'node:mvila/npm-addict' }
+                docker { image 'mvila/npm-addict' }
             }
             stages{
                 stage ('npm install'){
