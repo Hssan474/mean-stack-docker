@@ -10,7 +10,7 @@ pipeline {
         }
         stage ('Execute CI pipeline') {
             agent {
-                docker { image 'node:12-buster-slim' }
+                docker { image 'node:8.11.2-alpine' }
             }
             stages{
                 stage ('npm install'){
