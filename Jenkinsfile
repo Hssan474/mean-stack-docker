@@ -10,7 +10,7 @@ pipeline {
         }
         stage ('Execute CI pipeline') {
             agent {
-                docker { image 'node:12.18.1' }
+                docker { image 'node' }
             }
             stages{
                 stage ('npm install'){
