@@ -9,7 +9,7 @@ Docker-compose should be version 1.6 or higher.
 
 ### Clone the repo
 ```bash
-$ git clone https://github.com/radhouen/mean-stack-docker
+$ git clone https://github.com/hssan474/mean-stack-docker
 ```
  ### Run docker
  ```bash
